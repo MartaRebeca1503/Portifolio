@@ -1,0 +1,119 @@
+.butterfly{
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+.textoprincipal{
+     background-color: rgb(198, 154, 196);
+    color:aliceblue;
+    border-radius: 10px;
+
+}
+.lilacboard {
+  background-color: #f8f8ff; 
+  padding: 20px;
+  list-style-type: none;
+  text-align: left;
+  max-width: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.bio{
+    background-color:rgb(207, 210, 207);
+    color:rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}  
+
+.myabilities{
+    color:rebeccapurple;
+}
+
+.myactivities{
+    border-color: rebeccapurple;
+    border-radius: 10px;
+}
+
+.box {
+     width: 100px;
+    height: 100px;
+    background: slateblue;
+    padding: 8px;
+    display: grid;
+    place-content: center;
+    color: white;
+    text-align: center;
+  }
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  /* ...and then apply it: */
+  .box {
+    animation: slide-in 1000ms;
+  }
+
+  .foto img{
+
+    width: 200px;
+    display: flex;
+    justify-content:right;
+
+
+}
+.foto {
+    display: flex;
+    justify-content:right;
+padding: 50px;
+}
+
+
+
+.myinformation {
+    border: solid;
+    border-color: rebeccapurple;
+    border-radius: 10px;
+    max-width:200px;
+    justify-content: center;
+    display: flex;
+}
+
+.contact{
+  background-color: #f0f8ff; 
+  padding: 20px;
+  list-style-type: none;
+  text-align: left;
+  max-width: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.A2 img{
+  width: 500px;
+    display: flex;
+    
+}
+
+
+.A3 img{
+  width: 500px;
+    display: flex;
+}
+
+footer{
+  background-color:rebeccapurple; 
+  text-align: center;
+  padding: 20px;
+}
+ 
